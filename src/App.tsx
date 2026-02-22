@@ -50,15 +50,23 @@ export default function App() {
 
               <div className="lg:pl-12">
                 <span className="text-xs font-bold uppercase tracking-[0.3em] text-gold-500 mb-6 block">
-                  Our Heritage
+                  Philosophy
                 </span>
-                <h2 className="font-serif text-4xl md:text-6xl font-light leading-tight mb-8">
-                  A Legacy of <br />
-                  <span className="italic">Pure Excellence</span>
+                <h2 className="font-serif text-4xl md:text-5xl font-light leading-tight mb-8">
+                  Tradition & <br />
+                  <span className="italic">Modernity</span>
                 </h2>
-                <p className="text-white/60 font-light leading-relaxed mb-10 text-lg">
-                  For over three generations, Aureum has been at the forefront of luxury gold craftsmanship. Each piece is a testament to our commitment to purity, precision, and the timeless beauty of the world's most precious metal.
-                </p>
+                <div className="text-white/60 font-light leading-relaxed mb-10 text-base space-y-4">
+                  <p>
+                    At Muazzine, heritage is reimagined in 18k gold and diamonds, creating jewelry that bridges tradition and modernity. Each piece is born in Riyadh, where craft and culture converge, shaped with a devotion to both precision and poetry.
+                  </p>
+                  <p>
+                    Our jewelry carries the rhythm of tradition into the present, distilling the curves of Arabic script, the weight of memory, and the quiet grace of legacy into forms that feel both intimate and eternal.
+                  </p>
+                  <p>
+                    To wear Muazzine is to carry more than jewelry. It is to hold a fragment of tradition, reinterpreted for today, a reflection of identity, resilience, and enduring artistry.
+                  </p>
+                </div>
                 <button className="px-10 py-4 bg-gold-600/10 border border-gold-600/30 text-gold-400 font-medium text-sm uppercase tracking-widest rounded-full hover:bg-gold-600/20 transition-all">
                   Discover Our Story
                 </button>
